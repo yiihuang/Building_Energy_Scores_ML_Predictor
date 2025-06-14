@@ -1,0 +1,115 @@
+# ========================
+# Python General
+# ========================
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbconvert/
+*.nb.html
+
+# ========================
+# Environment Files
+# ========================
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+.venv.bak/
+env.bak/
+
+# Conda
+*.conda
+*.lock
+conda-meta/
+
+# ========================
+# Logs & Debug
+# ========================
+*.log
+*.out
+*.err
+nohup.out
+
+# ========================
+# System & OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ========================
+# IDE & Editor Settings
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ========================
+# Notebooks Extensions and Metadata
+# ========================
+.ipynb_checkpoints/
+*.nbmetadata
+.jupyter/
+.jupyter_cache/
+.jupyter_runtime/
+
+# ========================
+# Testing & Coverage
+# ========================
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.nox/
+
+# ========================
+# MyPy & Linting
+# ========================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# ========================
+# VSCode Python Extension
+# ========================
+.python-version
+
+# ========================
+# Temporary & Backup Files
+# ========================
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ========================
+# Project Specific
+# ========================
+Week7.md
