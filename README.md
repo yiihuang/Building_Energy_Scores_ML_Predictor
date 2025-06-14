@@ -1,4 +1,4 @@
-# machine-learning-project-walkthrough 
+# Predict the Energy Star Scores for buildings in NYC
 
 ## 📌 Project Overview
 
