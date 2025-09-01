@@ -4,6 +4,24 @@
 
 This project involves using machine learning techniques to predict the Energy Star Scores for buildings in New York City. The Energy Star Score measures the energy efficiency of a building relative to similar buildings nationwide, and our task is to predict this score accurately based on various features.
 
+## 📊 Model Performance Evaluation
+
+To showcase the model's predictive capabilities, we've included visualizations that demonstrate how well our model performs on the test set.
+
+### Distribution Comparison: True vs Predicted Values
+
+![Model Predictions Distribution](images/evaluation_1.png)
+
+The distribution plot shows that our model's predictions closely follow the true Energy Star Score distribution. While the predicted values align well with the overall pattern, they tend to cluster closer to the median rather than capturing the extreme values (like the peak at 100). This suggests the model is more conservative in its predictions, which can be beneficial for avoiding overfitting but may underestimate buildings with very high or very low scores.
+
+### Residual Analysis
+
+![Residual Distribution](images/evaluation_2.png)
+
+The residual histogram demonstrates that our model's prediction errors are well-distributed around zero, indicating balanced performance. The residuals follow a near-normal distribution with most errors being small and symmetric. However, there are some noticeable outliers on the lower end, representing cases where the model significantly underestimated the true Energy Star Score. These outliers provide valuable insights for potential model improvements and highlight areas where the model might need additional training data or feature engineering.
+
+These visualizations confirm that our machine learning pipeline successfully captures the underlying patterns in building energy data while maintaining reasonable prediction accuracy across the range of Energy Star Scores.
+
 # 📁 Project Structure
 ```
 .
